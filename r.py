@@ -63,7 +63,7 @@ for file_path in folder_path.rglob("*"):
                     continue
 
                 localDate = convertDate(MediaCreateDateStr)
-                print(localDate)
+                # print(localDate)
                 # 2019-11-06
 
                 os.rename(file_path.name, localDate + " " + file_path.name)
